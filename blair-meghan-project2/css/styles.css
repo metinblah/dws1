@@ -1,0 +1,103 @@
+/* Main Styles */
+
+body {
+	width: 100%;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	background-color: #260c0b;
+}
+
+/* Heading Styles */
+
+h1 {
+	color: #3bc2a9;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4.69em;
+	text-align: center;
+	text-shadow: 2px 2px #9ed1c3;
+}
+ul {
+	list-style-type: none;
+	color: #d58193;
+	text-align: center;
+	text-decoration: none;
+	padding: 30px;
+}
+.nav {
+	display: inline-block;
+}
+
+/* Links Styles */
+
+a:link {
+	color: #d95aac;
+	text-decoration: none;
+}
+a:visited {
+	color: #f3e9e0;
+}
+a:hover {
+	font-style: italic;
+	text-decoration: line-through;
+}
+a:active {
+	color: #d58193;
+}
+
+/* Body Styles */
+
+p {
+	color: #f3e9e0;
+	text-align: center;
+	line-height: 1.4em;
+}
+.paragraphs {
+	background-color: hsla(169, 53%, 50%, 0.5);
+	width: 500px;
+	border: 3px solid #d58193;
+	margin: 20px auto;
+	padding: 10px;
+}
+h2 {
+	color: #d95aac;
+	text-align: center;
+}
+h3 {
+	color: #d95aac;
+	text-align: center;
+}
+
+/* Ordered List Styles */
+
+ol {
+	color: #f3e9e0;
+}
+#famous {
+	background-color: hsla(169, 53%, 50%, 0.5);
+	border: 3px solid #d58193;
+	width: 500px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+/* Gallery Styles */
+
+img{
+	width: 350px;
+	border-radius: 25px;
+	border: 5px outset #d58193;
+	box-shadow: 5px 5px 3px #f3e9e0;
+}
+figure {
+	width: 350px;
+	margin: 10px auto;
+	padding: 10px;
+}
+figcaption {
+	color: #3bc2a9;
+	text-align: center;
+}
+footer {
+	color: #d58193;
+	text-align: right;
+}
