@@ -1,0 +1,135 @@
+/* Main Styles */
+
+body {
+	width: 100%;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	background-color: #260c0b;
+	background-image: url("../images/lunar-midnight.gif");
+	background-position: center;
+}
+
+/* Heading Styles */
+
+h1 {
+	color: #3bc2a9;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4.69em;
+	text-align: center;
+	text-shadow: 2px 2px #9ed1c3;
+}
+ul {
+	list-style-type: none;
+	color: #d58193;
+	text-align: center;
+	text-decoration: none;
+	padding: 30px;
+}
+nav li{
+	display: inline-block;
+}
+
+/* Links Styles */
+
+a:link {
+	color: #d95aac;
+	text-decoration: none;
+}
+a:visited {
+	color: #f3e9e0;
+}
+a:hover {
+	font-style: italic;
+	text-decoration: line-through;
+}
+a:active {
+	color: #d58193;
+}
+
+/* Body Styles */
+
+p {
+	color: #f3e9e0;
+	text-align: center;
+	line-height: 1.4em;
+}
+.paragraphs {
+	background: linear-gradient(hsla(169, 53%, 50%, 0.5), hsla(185, 53%, 50%, 0.5)); 
+	width: 29%;
+	border: 3px solid #d58193;
+	margin: 1%;
+	padding: 10px;
+}
+h2 {
+	color: #d95aac;
+	text-align: center;
+}
+#gallery {
+	padding: 30px;
+	background: url("../images/images.png") no-repeat 60px 10px;
+}
+h3 {
+	color: #d95aac;
+	text-align: center;
+}
+
+/* Ordered List Styles */
+
+ol {
+	color: #f3e9e0;
+}
+#famous {
+	background-color: hsla(169, 53%, 50%, 0.5);
+	border: 3px solid #d58193;
+	width: 29%;
+	margin: 1%;
+	padding: 10px;
+}
+
+/* Gallery Styles */
+
+img{
+	width: 400px;
+	border-radius: 25px;
+	border: 5px outset #d58193;
+	box-shadow: 5px 5px 3px #f3e9e0;
+}
+figure {
+	width: 400px;
+	margin: .7%;
+	padding: 10px;
+}
+figcaption {
+	color: #3bc2a9;
+	text-align: center;
+}
+footer {
+	color: #d58193;
+	text-align: right;
+}
+
+/* Floats */
+
+nav {
+	width: 29%;
+	padding: 10px;
+	margin: 1%;
+	float: left;
+	clear: left;
+}
+section {
+	width: 29%;
+	padding: 10px;
+	margin: 1%;
+	float: left;
+	clear: left;
+}
+aside {
+	width: 29%;
+	padding: 10px;
+	margin: 1%;
+	float: left;
+}
+footer {
+	clear: both;
+}
