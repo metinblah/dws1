@@ -5,6 +5,8 @@ body {
 	font-family: Verdana, Arial, sans-serif;
 	font-weight: normal;
 	background-color: #260c0b;
+	background-image: url("../images/lunar-midnight.gif");
+	background-position: center;
 }
 
 /* Heading Styles */
@@ -23,7 +25,7 @@ ul {
 	text-decoration: none;
 	padding: 30px;
 }
-.nav {
+nav li{
 	display: inline-block;
 }
 
@@ -52,15 +54,21 @@ p {
 	line-height: 1.4em;
 }
 .paragraphs {
-	background-color: hsla(169, 53%, 50%, 0.5);
-	width: 500px;
+	background: linear-gradient(hsla(169, 53%, 50%, 0.5), hsla(185, 53%, 50%, 0.5)); 
+	width: 75%;
 	border: 3px solid #d58193;
-	margin: 20px auto;
+	margin: 1%;
 	padding: 10px;
+	overflow: auto;
 }
 h2 {
 	color: #d95aac;
 	text-align: center;
+	clear: both;
+}
+#gallery {
+	padding: 30px;
+	background: url("../images/images.png") no-repeat 60px 10px;
 }
 h3 {
 	color: #d95aac;
@@ -75,22 +83,22 @@ ol {
 #famous {
 	background-color: hsla(169, 53%, 50%, 0.5);
 	border: 3px solid #d58193;
-	width: 500px;
-	margin: 20px auto;
+	width: 75%;
+	margin: 1%;
 	padding: 10px;
 }
 
 /* Gallery Styles */
 
 img{
-	width: 350px;
+	width: 400px;
 	border-radius: 25px;
 	border: 5px outset #d58193;
 	box-shadow: 5px 5px 3px #f3e9e0;
 }
 figure {
-	width: 350px;
-	margin: 10px auto;
+	width: 400px;
+	margin: .7%;
 	padding: 10px;
 }
 figcaption {
@@ -100,4 +108,68 @@ figcaption {
 footer {
 	color: #d58193;
 	text-align: right;
+}
+
+/* Floats */
+
+#float {
+	width: 45%;
+	padding: 10px;
+	margin: 1%;
+	float: left;
+	clear: left;
+}
+aside {
+	width: 29%;
+	padding: 10px;
+	margin: 1%;
+	float: left;
+}
+footer {
+	clear: both;
+}
+
+/* Table Styling */
+
+table {
+	width: 450px;
+	margin: 20px 0;
+	border: 3px solid #d58193;
+	color: #fff;
+	border-spacing: 2px;
+	float: left;
+	clear: left;
+}
+tbody {
+	width: 300px;
+}
+th {
+	border-bottom: 2px solid #d58193;
+	background-color: hsla(169, 53%, 50%, 0.5);
+}
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+#tabletitle {
+	text-align: center;
+	text-decoration: underline;
+	float: left;
+	clear: left;
+}
+
+/* Form Styling */
+
+form {
+	width: 450px;
+	margin: 50px 0;
+	padding: 20px 0;
+	color: #fff;
+	border: 3px dotted #d58193;
+	text-align: center;
+	background-color: hsla(169, 53%, 50%, 0.5);
+	clear: both;
+}
+#name {
+	margin: 10px;
 }
